@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/llay_main"
+    >
+    	
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bbg"
+    android:tileMode="repeat"
+    android:id="@+id/llay_gam"
+      >
+      
+	    <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+	        <ImageView android:layout_height="16dp" android:layout_width="16dp" android:src="@drawable/ximg" android:id="@+id/ImageViewTurn" android:layout_marginLeft="8dip" android:layout_marginRight="2dip" android:layout_marginTop="2dip"></ImageView>
+	        <TextView android:id="@+id/turnBoard" android:textColor="#000000" android:layout_height="wrap_content" android:text="'s Turn" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="0dp" android:layout_weight="4"></TextView>
+	        <ImageView android:src="@drawable/ximg" android:id="@+id/imageViewX" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="5dip" android:layout_marginTop="2dip"></ImageView>
+	        <TextView android:id="@+id/scoreBoardx" android:textColor="#000000" android:layout_height="wrap_content" android:text="0" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="0dp" android:layout_weight="1"></TextView>
+	        <ImageView android:layout_height="16dp" android:layout_width="16dp" android:src="@drawable/oimg" android:id="@+id/ImageViewO" android:layout_marginRight="5dip" android:layout_marginTop="2dip"></ImageView>
+	        <TextView android:id="@+id/scoreBoardo" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="0dp" android:text="0" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#000000"></TextView>
+	    </TableRow>
+	     
+	    <TableRow android:id="@+id/tableRow1" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView1" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView2" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView3" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	    </TableRow>
+	    <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView4" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView5" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView6" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	    </TableRow>
+	    <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView7" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView8" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	        <ImageView android:src="@drawable/eimg" android:id="@+id/ImageView9" android:layout_weight="1" android:layout_width="0dp" android:layout_height="match_parent"></ImageView>
+	    </TableRow>
+	   
+	</LinearLayout>
+	
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llay">
+    
+   </LinearLayout>
+   
+</LinearLayout>

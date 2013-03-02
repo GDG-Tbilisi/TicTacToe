@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TicTacToeActivity!</string>
+    <string name="app_name">TicTacToe</string>
+    <string name="already">Y U NO Know Rules?!</string>
+    <string name="won_x">X Win :)</string>
+    <string name="won_o">O Win :)</string>
+    <string name="won_no">Draw</string>
+    <string name="new_title">New Game</string>
+    <string name="new_starting">New Game Started...</string>
+    <string name="new_msg">Start New Game?</string>
+    <string name="quit_title">Confirm Exit</string>
+    <string name="quit_msg">Really Exit?</string>
+    <string name="yes">Yep</string>
+    <string name="no">Nope</string>
+    
+    <string name="about_title">About</string>
+    <string name="about_quit">Close</string>
+    <string name="about_body">
+	    <strong>TicTacToe v1.1</strong><br/>
+	    created by Stichoza<br/>
+	    <br/>
+	    <a href="http://stichoza.com/">http://stichoza.com/</a><br/>
+	    <a href="mailto:admin@stichoza.com">admin@stichoza.com</a>
+    </string>
+    
+    <string name="reset_current">Reset Current</string>
+    <string name="reset_whole">Reset Scores</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+    <color name="black">#000000</color>
+    
+</resources>

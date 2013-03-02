@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/res_curr"
+          android:title="@string/reset_current"
+          android:icon="@drawable/ic_menu_reset" />
+          
+    <item android:id="@+id/res_whl"
+          android:title="@string/reset_whole"
+          android:icon="@drawable/ic_menu_reset" />
+          
+    <item android:id="@+id/aboutt"
+          android:title="@string/menu_about"
+          android:icon="@drawable/ic_menu_about" /> 
+          
+    <item android:id="@+id/exitt"
+          android:title="@string/menu_exit"
+          android:icon="@drawable/ic_menu_exit" />
+</menu>
